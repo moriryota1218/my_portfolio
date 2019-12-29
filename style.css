@@ -94,6 +94,7 @@ section {
    height: 500px;
    object-fit: cover;
    margin-left: 30%;
+   opacity: 0.9;
  }
 
  .mainvisual h2 {
@@ -105,9 +106,7 @@ section {
    padding: 1rem;
  }
 
- .mainvisual h2 span {
-   color: #fff;
- }
+ 
 
  .bg1 {
    background: #20B2AA;
@@ -118,3 +117,30 @@ section {
    left: 0;
    z-index: -1;
  }
+ /* ここまでmainvisual */
+
+ /* 会社コンセプト部分 */
+ .concept h2 {
+   margin-bottom: 100px;
+   text-align: center;
+ }
+
+ .concept .contents {
+   display: flex;
+   width: 100%;
+   justify-content: space-between;
+   margin: 0 auto;
+   align-items: center;
+ }
+
+ .concept .contents figure {
+   width: 50%;
+   opacity: 0.8;
+ }
+
+ .concept .content {
+   width: 48%;
+ }
+
+ /* ここまで会社コンセプト */
+
