@@ -182,3 +182,37 @@ section {
   margin-left: -45px;
 }
 /* ここまで事業内容 */
+
+/* News */
+.news .content-wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 180px;
+}
+
+.news h2 {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.news li {
+  border-bottom: dotted 1px #20B2AA;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.news li a {
+  color: #333333;
+}
+
+.news li a:hover {
+  opacity: 0.6;
+}
+
+.news li time {
+  font-size: 0.75em;
+  color: #20B2AA;
+  padding-right: 0;
+  margin-right: 80px;
+}
+/* ここまでNews */
