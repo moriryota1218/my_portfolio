@@ -61,6 +61,7 @@ section {
 
  .header h1 {
    color: aliceblue;
+   font-family: 'Solway', serif;
    margin-left: 20px;
  }
 
@@ -99,9 +100,11 @@ section {
 
  .mainvisual h2 {
    position: absolute;
+   font-family: 'Kosugi', sans-serif;
+   color: #fff;
    top: 30%;
    left: 20%;
-   background-color: rgba(255, 255, 255, 0.4);
+   background-color: rgba(72, 209, 204, 0.9);
    font-size: 3rem;
    padding: 1rem;
  }
@@ -123,6 +126,7 @@ section {
  .concept h2 {
    margin-bottom: 100px;
    text-align: center;
+   color: #20B2AA;
  }
 
  .concept .contents {
@@ -193,6 +197,7 @@ section {
 .news h2 {
   margin-bottom: 50px;
   text-align: center;
+  color: #20B2AA;
 }
 
 .news li {
@@ -242,15 +247,7 @@ section {
 }
 
 /* 半透明のレイヤーを重ねて採用ボタンの視認性をあげる */
-.recruit-img::after {
-  content: "";
-  position: absolute;
-  width: 80%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background-color: rgba(0,0,0,0.5);
-}
+
 
 .recruit h2 a {
   position: absolute;
@@ -258,8 +255,43 @@ section {
   right: 52%;
   width: 250px;
   height: 60px;
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(32, 178, 170, 0.8);
   line-height: 60px;
   text-align: center;
+  color: aliceblue;
 }
 /* ここまでrecruit */
+
+/* footer */
+footer .content-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.address h2 {
+  color: #20B2AA;
+  font-family: 'Solway', serif;
+}
+
+.address p {
+  line-height: 1.8;
+}
+
+footer ul {
+  display: flex;
+}
+
+footer ul li {
+  margin-right: 50px;
+}
+
+.copylight p {
+  text-align: center;
+  font-size: 0.75rem;
+  margin: 0;
+  line-height: 100px;
+  color: #fff;
+  background-color: #20B2AA;
+}
