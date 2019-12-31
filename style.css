@@ -216,3 +216,50 @@ section {
   margin-right: 80px;
 }
 /* ここまでNews */
+
+
+/* recruit */
+.recruit {
+  position: relative;
+}
+
+.recruit::before {
+  content: '';
+  position: absolute;
+  background: #20B2AA;
+  height: 400px;
+  width: 45%;
+  top: -20px;
+  right: 0;
+  z-index: -1;
+}
+
+.recruit-img img {
+  width: 80%;
+  height: 400px;
+  margin-right: 20%;
+  object-fit: cover;
+}
+
+/* 半透明のレイヤーを重ねて採用ボタンの視認性をあげる */
+.recruit-img::after {
+  content: "";
+  position: absolute;
+  width: 80%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.recruit h2 a {
+  position: absolute;
+  top: 45%;
+  right: 52%;
+  width: 250px;
+  height: 60px;
+  background-color: rgba(255, 255, 255, 0.6);
+  line-height: 60px;
+  text-align: center;
+}
+/* ここまでrecruit */
