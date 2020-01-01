@@ -296,3 +296,19 @@ footer ul li {
   color: #fff;
   background-color: #20B2AA;
 }
+
+/* TOPへ戻るボタン */
+#page_top {
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+}
+
+#page_top a {
+  background: #20B2AA;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  padding: 20px 20px;
+  border-radius: 10px;
+}
