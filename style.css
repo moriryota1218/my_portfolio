@@ -312,3 +312,41 @@ footer ul li {
   padding: 20px 20px;
   border-radius: 10px;
 }
+/* ここまでTOPへ戻るボタン */
+/* ここまでTOPページ */
+
+/* ここから下層ページ */
+/* 会社概要ページ */
+/* サブビジュアル */
+.subvisual {
+  margin-bottom: 120px;
+  background-image: url(images/jakob-owens-JzJSybPFb3s-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.subvisual h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: #20B2AA;
+  line-height: 400px;
+  font-weight: bold;
+}
+
+/* grid rayoutによる記述 */
+.company-concept {
+  margin-bottom: 120px;
+}
+
+.company-concept .contents {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.company-concept h2 {
+  margin-bottom: 50px;
+  text-align: center;
+  color: #20B2AA;
+}
