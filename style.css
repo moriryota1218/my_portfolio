@@ -333,7 +333,9 @@ footer ul li {
   line-height: 400px;
   font-weight: bold;
 }
+/* ここまでサブビジュアル */
 
+/* concept箇所 */
 /* grid rayoutによる記述 */
 .company-concept {
   margin-bottom: 120px;
@@ -349,4 +351,42 @@ footer ul li {
   margin-bottom: 50px;
   text-align: center;
   color: #20B2AA;
+}
+/* ここまでconcept */
+
+/* company-profile */
+.company-profile {
+  margin-bottom: 120px;
+}
+
+.company-profile h2 {
+  text-align: center;
+  color: #20B2AA;
+  margin-bottom: 20px;
+}
+table.company {
+  width: 100%;
+  margin: 0 auto;
+}
+
+table.company th {
+  background: -webkit-linear-gradient(left, #20B2AA, #fff);
+  color: #fff;
+  box-sizing: border-box;
+  padding: 20px;
+  width: 30%;
+  line-height: 1.5em;
+  text-align: left;
+}
+
+table.company th:first-of-type {
+  border-bottom: 1px solid #fff;
+}
+
+table.company td {
+  text-align: left;
+  box-sizing: border-box;
+  padding: 20px;
+  border-bottom: 1px solid #fff;
+  line-height: 1.5em;
 }
