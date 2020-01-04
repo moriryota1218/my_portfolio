@@ -296,6 +296,7 @@ footer ul li {
   color: #fff;
   background-color: #20B2AA;
 }
+/* ここまでfooter */
 
 /* TOPへ戻るボタン */
 #page_top {
@@ -379,14 +380,22 @@ table.company th {
   text-align: left;
 }
 
-table.company th:first-of-type {
-  border-bottom: 1px solid #fff;
-}
-
 table.company td {
   text-align: left;
   box-sizing: border-box;
-  padding: 20px;
+  padding: 30px;
   border-bottom: 1px solid #fff;
   line-height: 1.5em;
+}
+/* ここまでcompany-profile */
+
+/* map */
+.company-map h2 {
+  margin-bottom: 50px;
+  text-align: center;
+  color: #20B2AA;
+}
+
+.company-map {
+  margin-bottom: 0;
 }
