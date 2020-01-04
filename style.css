@@ -53,7 +53,7 @@ section {
    width: 1400px;
    margin: 0 auto;
  }
-
+/* ---------------------------------TOPページ---------------------------- */
  /* header */
  .header {
    width: 100%;
@@ -314,10 +314,9 @@ footer ul li {
   border-radius: 10px;
 }
 /* ここまでTOPへ戻るボタン */
-/* ここまでTOPページ */
+/* ------------------------ここまでTOPページ------------------------------ */
 
-/* ここから下層ページ */
-/* 会社概要ページ */
+/* -------------------------会社概要ページ-------------------------------- */
 /* サブビジュアル */
 .subvisual {
   margin-bottom: 120px;
@@ -399,3 +398,35 @@ table.company td {
 .company-map {
   margin-bottom: 0;
 }
+/* -------------------------ここまで会社概要ページ-------------------------------- */
+
+/* -------------------------リクルートページ-------------------------------------- */
+.recruit-point h2 {
+  text-align: center;
+  color: #20B2AA;
+  margin-bottom: 20px;
+}
+
+table.content {
+  width: 100%;
+  margin: 0 auto;
+}
+
+table.content th {
+  background: -webkit-linear-gradient(left, #20B2AA, #fff);
+  color: #fff;
+  box-sizing: border-box;
+  padding: 20px;
+  width: 30%;
+  line-height: 1.5em;
+  text-align: left;
+}
+
+table.content td {
+  text-align: left;
+  box-sizing: border-box;
+  padding: 30px;
+  border-bottom: 1px solid #fff;
+  line-height: 1.5em;
+}
+/* -------------------------ここまでリクルートページ------------------------------- */
