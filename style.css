@@ -522,3 +522,64 @@ table.content td {
   padding: 80px;
   z-index: 2;
 }
+
+/* スライドアニメーション */
+/* RightToLeftスライド */
+@keyframes RightToLeft {
+  0% {
+    opacity: 0;/* 透明 */
+    transform: translateX(50px);/* X軸方向に50px */
+  }
+  100% {
+    opacity: 1;/* 不透明 */
+    transform: translateX(0);
+  }
+}
+
+/* RightToLeftスライドの適用 */
+.services02 img{
+  animation-duration: 3s;/* アニメーション時間 */
+  animation-delay: 2s;/* アニメーション開始時間 */
+  animation-name: RightToLeft;/* アニメーション名 */
+}
+
+.services01 dd{
+  animation-duration: 3s;/* アニメーション時間 */
+  animation-name: RightToLeft;/* アニメーション名 */
+}
+
+.services03 dd{
+  animation-duration: 3s;/* アニメーション時間 */
+  animation-delay: 3.5s;/* アニメーション開始時間 */
+  animation-name: RightToLeft;/* アニメーション名 */
+}
+
+/* LeftToRightスライド */
+@keyframes LeftToRight {
+  0% {
+    opacity: 0;/* 透明 */
+    transform: translateX(-50px);/* X軸方向に50px */
+  }
+  100% {
+    opacity: 1;/* 不透明 */
+    transform: translateX(0);
+  }
+}
+
+/* LeftToRightスライドの適用 */
+.services01 img{
+  animation-duration: 3s;/* アニメーション時間 */
+  animation-name: LeftToRight;/* アニメーション名 */
+}
+
+.services02 dd{
+  animation-duration: 3s;/* アニメーション時間 */
+  animation-delay: 2s;/* アニメーション開始時間 */
+  animation-name: LeftToRight;/* アニメーション名 */
+}
+
+.services03 img{
+  animation-duration: 3s;/* アニメーション時間 */
+  animation-delay: 3.5s;/* アニメーション開始時間 */
+  animation-name: LeftToRight;/* アニメーション名 */
+}
