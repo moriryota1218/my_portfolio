@@ -1,10 +1,11 @@
 @charset "UTF-8";
-
 /*========= base ===========*/
+
 /* ベースのCSSを記述して初期化 */
+
 html {
   margin: 0;
-  padding:0;
+  padding: 0;
 }
 
 body {
@@ -16,7 +17,7 @@ body {
   line-height: 2.0;
 }
 
-h2,h3,h4,h5 {
+h2, h3, h4, h5 {
   margin: 0;
   padding: 0;
 }
@@ -26,9 +27,9 @@ img {
   vertical-align: bottom;
 }
 
-ul,li,dl,dt,dd {
-  margin:0;
-  padding:0;
+ul, li, dl, dt, dd {
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
@@ -36,11 +37,12 @@ p {
   margin: 0 0 1em 0;
 }
 
-a { 
+a {
   text-decoration: none;
   color: #000;
 }
-a:hover { 
+
+a:hover {
   transition: .3s;
   opacity: 0.6;
 }
@@ -50,111 +52,118 @@ section {
 }
 
 .content-wrapper {
-   width: 1400px;
-   margin: 0 auto;
- }
+  width: 1400px;
+  margin: 0 auto;
+}
+
 /* ---------------------------------TOPページ---------------------------- */
- /* header */
- .header {
-   width: 100%;
- }
 
- .header h1 {
-   color: aliceblue;
-   font-family: 'Solway', serif;
-   margin-left: 20px;
- }
+/* header */
 
- .header-nav {
-   height: 100px;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
- }
+.header {
+  width: 100%;
+}
 
- .header nav ul {
+.header h1 {
+  color: aliceblue;
+  font-family: 'Solway', serif;
+  margin-left: 20px;
+}
+
+.header-nav {
+  height: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
- }
+}
 
- .header nav ul li {
-   margin-right: 50px;
- }
- /* ここまでheader */
+.header nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
- /* mainvisual */
+.header nav ul li {
+  margin-right: 50px;
+}
 
- .mainvisual {
-   position: relative;
-   height: 600px;
- }
+/* ここまでheader */
 
- .mainvisual img {
-   width: 70%;
-   height: 500px;
-   object-fit: cover;
-   margin-left: 30%;
-   opacity: 0.9;
- }
+/* mainvisual */
 
- .mainvisual h2 {
-   position: absolute;
-   font-family: 'Kosugi', sans-serif;
-   color: #fff;
-   top: 30%;
-   left: 20%;
-   background-color: rgba(72, 209, 204, 0.9);
-   font-size: 3rem;
-   padding: 1rem;
- }
+.mainvisual {
+  position: relative;
+  height: 600px;
+}
 
- 
+.mainvisual img {
+  width: 70%;
+  height: 500px;
+  object-fit: cover;
+  margin-left: 30%;
+  opacity: 0.9;
+}
 
- .bg1 {
-   background: -webkit-linear-gradient(left, #20B2AA, #fff);
-   height: 700px;
-   width: 45%;
-   position: absolute;
-   top: -18%;
-   left: 0;
-   z-index: -1;
+.mainvisual h2 {
+  position: absolute;
+  font-family: 'Kosugi', sans-serif;
+  color: #fff;
+  top: 30%;
+  left: 20%;
+  background-color: rgba(72, 209, 204, 0.9);
+  font-size: 3rem;
+  padding: 1rem;
+}
 
- }
- /* ここまでmainvisual */
+.bg1 {
+  background: -webkit-linear-gradient(left, #20B2AA, #fff);
+  height: 700px;
+  width: 45%;
+  position: absolute;
+  top: -18%;
+  left: 0;
+  z-index: -1;
+}
 
- /* 会社コンセプト部分 */
- .concept h2 {
-   margin-bottom: 100px;
-   text-align: center;
-   color: #20B2AA;
- }
+/* ここまでmainvisual */
 
- .concept .contents {
-   display: flex;
-   width: 100%;
-   justify-content: space-between;
-   margin: 0 auto;
-   align-items: center;
- }
+/* 会社コンセプト部分 */
 
- .concept .contents figure {
-   width: 50%;
-   opacity: 0.8;
- }
+.concept h2 {
+  margin-bottom: 100px;
+  text-align: center;
+  color: #20B2AA;
+}
 
- .concept .content {
-   width: 48%;
- }
+.concept .contents {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.concept .contents figure {
+  width: 50%;
+  opacity: 0.8;
+}
+
+.concept .content {
+  width: 48%;
+}
+
 /* ここまで会社コンセプト */
 
 /* 事業内容 */
+
 .services {
   width: 100%;
   padding-top: 40px;
   position: relative;
 }
+
 /* 擬似要素::beforeを使用して背景の作成 */
+
 .services::before {
   content: '';
   background: -webkit-linear-gradient(top, #20B2AA, #fff);
@@ -174,21 +183,22 @@ section {
   display: flex;
   justify-content: space-around;
   width: 1400px;
-  
 }
 
 .services ul li {
   width: 400px;
 }
 
-.services figure img{
+.services figure img {
   width: 400px;
   height: 400px;
   margin-left: -45px;
 }
+
 /* ここまで事業内容 */
 
 /* News */
+
 .news .content-wrapper {
   width: 1200px;
   margin: 0 auto;
@@ -221,10 +231,11 @@ section {
   padding-right: 0;
   margin-right: 80px;
 }
+
 /* ここまでNews */
 
-
 /* recruit */
+
 .recruit {
   position: relative;
 }
@@ -249,7 +260,6 @@ section {
 
 /* 半透明のレイヤーを重ねて採用ボタンの視認性をあげる */
 
-
 .recruit h2 a {
   position: absolute;
   top: 45%;
@@ -261,10 +271,12 @@ section {
   text-align: center;
   color: aliceblue;
 }
+
 /* ここまでrecruit */
 
 /* footer */
-footer .content-wrapper{
+
+footer .content-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -296,9 +308,11 @@ footer ul li {
   color: #fff;
   background-color: #20B2AA;
 }
+
 /* ここまでfooter */
 
 /* TOPへ戻るボタン */
+
 #page_top {
   position: fixed;
   bottom: 30px;
@@ -313,11 +327,37 @@ footer ul li {
   padding: 20px 20px;
   border-radius: 10px;
 }
+
 /* ここまでTOPへ戻るボタン */
+
+/* 上から下にスライドダウン */
+
+ .fadeInDown {
+    opacity: 0;
+    /* 透明 */
+    transform: translateY(-70px);
+    /* Y（縦）軸方向に-70px */
+    transition: 2s;
+  }
+  
+
+/* 下から上にスライドダウン */
+
+.fadeInUp {
+  opacity: 0;
+  /* 透明 */
+  transform: translateY(70px);
+  /* Y（縦）軸方向に70px */
+  transition: 2s;
+}
+
+
 /* ------------------------ここまでTOPページ------------------------------ */
 
 /* -------------------------会社概要ページ-------------------------------- */
+
 /* サブビジュアル */
+
 .subvisual {
   margin-bottom: 120px;
   background-image: url(images/jakob-owens-JzJSybPFb3s-unsplash.jpg);
@@ -333,10 +373,13 @@ footer ul li {
   line-height: 400px;
   font-weight: bold;
 }
+
 /* ここまでサブビジュアル */
 
 /* concept箇所 */
+
 /* grid rayoutによる記述 */
+
 .company-concept {
   margin-bottom: 120px;
 }
@@ -352,9 +395,11 @@ footer ul li {
   text-align: center;
   color: #20B2AA;
 }
+
 /* ここまでconcept */
 
 /* company-profile */
+
 .company-profile {
   margin-bottom: 120px;
 }
@@ -364,6 +409,7 @@ footer ul li {
   color: #20B2AA;
   margin-bottom: 20px;
 }
+
 table.company {
   width: 100%;
   margin: 0 auto;
@@ -386,9 +432,11 @@ table.company td {
   border-bottom: 1px solid #fff;
   line-height: 1.5em;
 }
+
 /* ここまでcompany-profile */
 
 /* map */
+
 .company-map h2 {
   margin-bottom: 50px;
   text-align: center;
@@ -398,9 +446,11 @@ table.company td {
 .company-map {
   margin-bottom: 0;
 }
+
 /* -------------------------ここまで会社概要ページ-------------------------------- */
 
 /* -------------------------リクルートページ-------------------------------------- */
+
 .recruit-point h2 {
   text-align: center;
   color: #20B2AA;
@@ -429,9 +479,11 @@ table.content td {
   border-bottom: 1px solid #fff;
   line-height: 1.5em;
 }
+
 /* -------------------------ここまでリクルートページ------------------------------- */
 
 /* -------------------------事業内容ページ------------------------------------ */
+
 .services-info h2 {
   text-align: center;
   color: #20B2AA;
@@ -480,11 +532,11 @@ table.content td {
 }
 
 /* flexで画像と文章を逆位置する */
+
 .services02 dt {
   display: flex;
   justify-content: flex-end;
 }
-
 
 .services02 dd {
   width: 40%;
@@ -524,62 +576,91 @@ table.content td {
 }
 
 /* スライドアニメーション */
-/* RightToLeftスライド */
+
+/* RightToLeftスライド servicesページ*/
+
 @keyframes RightToLeft {
   0% {
-    opacity: 0;/* 透明 */
-    transform: translateX(50px);/* X軸方向に50px */
+    opacity: 0;
+    /* 透明 */
+    transform: translateX(50px);
+    /* X軸方向に50px */
   }
   100% {
-    opacity: 1;/* 不透明 */
+    opacity: 1;
+    /* 不透明 */
     transform: translateX(0);
   }
 }
 
 /* RightToLeftスライドの適用 */
-.services02 img{
-  animation-duration: 3s;/* アニメーション時間 */
-  animation-delay: 2s;/* アニメーション開始時間 */
-  animation-name: RightToLeft;/* アニメーション名 */
+
+.services02 img {
+  animation-duration: 3s;
+  /* アニメーション時間 */
+  animation-delay: 2s;
+  /* アニメーション開始時間 */
+  animation-name: RightToLeft;
+  /* アニメーション名 */
 }
 
-.services01 dd{
-  animation-duration: 3s;/* アニメーション時間 */
-  animation-name: RightToLeft;/* アニメーション名 */
+.services01 dd {
+  animation-duration: 3s;
+  /* アニメーション時間 */
+  animation-name: RightToLeft;
+  /* アニメーション名 */
 }
 
-.services03 dd{
-  animation-duration: 3s;/* アニメーション時間 */
-  animation-delay: 3.5s;/* アニメーション開始時間 */
-  animation-name: RightToLeft;/* アニメーション名 */
+.services03 dd {
+  animation-duration: 3s;
+  /* アニメーション時間 */
+  animation-delay: 3.5s;
+  /* アニメーション開始時間 */
+  animation-name: RightToLeft;
+  /* アニメーション名 */
 }
 
 /* LeftToRightスライド */
+
 @keyframes LeftToRight {
   0% {
-    opacity: 0;/* 透明 */
-    transform: translateX(-50px);/* X軸方向に50px */
+    opacity: 0;
+    /* 透明 */
+    transform: translateX(-50px);
+    /* X軸方向に50px */
   }
   100% {
-    opacity: 1;/* 不透明 */
+    opacity: 1;
+    /* 不透明 */
     transform: translateX(0);
   }
 }
 
 /* LeftToRightスライドの適用 */
-.services01 img{
-  animation-duration: 3s;/* アニメーション時間 */
-  animation-name: LeftToRight;/* アニメーション名 */
+
+.services01 img {
+  animation-duration: 3s;
+  /* アニメーション時間 */
+  animation-name: LeftToRight;
+  /* アニメーション名 */
 }
 
-.services02 dd{
-  animation-duration: 3s;/* アニメーション時間 */
-  animation-delay: 2s;/* アニメーション開始時間 */
-  animation-name: LeftToRight;/* アニメーション名 */
+.services02 dd {
+  animation-duration: 3s;
+  /* アニメーション時間 */
+  animation-delay: 2s;
+  /* アニメーション開始時間 */
+  animation-name: LeftToRight;
+  /* アニメーション名 */
 }
 
-.services03 img{
-  animation-duration: 3s;/* アニメーション時間 */
-  animation-delay: 3.5s;/* アニメーション開始時間 */
-  animation-name: LeftToRight;/* アニメーション名 */
+.services03 img {
+  animation-duration: 3s;
+  /* アニメーション時間 */
+  animation-delay: 3.5s;
+  /* アニメーション開始時間 */
+  animation-name: LeftToRight;
+  /* アニメーション名 */
 }
+
+/* -------------------------ここまで事業内容ページ------------------------------ */

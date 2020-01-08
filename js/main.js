@@ -36,3 +36,49 @@ $(function(){
    });
 })
 // ---------------ここまでTOPページにアニメーション付与---------------
+
+// ---------------TOPページスライドダウン-----------------------------
+$(function(){
+   function animation(){
+      $('.fadeInDown').each(function(){
+         // ターゲット位置の取得
+         var target = $(this).offset().top;
+         // スクロール量を取得
+         var scroll = $(window).scrollTop();
+         // ウィンドウの高さを取得
+         var windowHeight = $(window).height();
+         //ターゲットまでスクロールするとフェードインする
+         if(scroll > target - windowHeight){
+            $(this).css('opacity','1');
+            $(this).css('transform','translate(0');
+         }        
+      });
+   }
+   animation();
+   $(window).scroll(function(){
+      animation();
+   });
+});
+
+// ---------------TOPページスライドアップ-----------------------------
+$(function(){
+   function animation(){
+      $('.fadeInUp').each(function(){
+         // ターゲット位置の取得
+         var target = $(this).offset().top;
+         // スクロール量を取得
+         var scroll = $(window).scrollTop();
+         // ウィンドウの高さを取得
+         var windowHeight = $(window).height();
+         //ターゲットまでスクロールするとフェードインする
+         if(scroll > target - windowHeight){
+            $(this).css('opacity','1');
+            $(this).css('transform','translate(0');
+         }        
+      });
+   }
+   animation();
+   $(window).scroll(function(){
+      animation();
+   });
+});
