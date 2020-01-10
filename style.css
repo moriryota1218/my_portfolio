@@ -664,3 +664,18 @@ table.content td {
 }
 
 /* -------------------------ここまで事業内容ページ------------------------------ */
+
+/* -------------------------問い合わせページ----------------------------------- */
+.contact h2 {
+  text-align: center;
+  color: #20B2AA;
+  margin-bottom: 20px;
+  border-bottom: 3px solid #20B2AA;
+}
+.contact p {
+  text-align: center;
+}
+
+.contact p span {
+  color: red;
+}
