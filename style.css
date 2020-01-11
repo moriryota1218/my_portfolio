@@ -666,6 +666,7 @@ table.content td {
 /* -------------------------ここまで事業内容ページ------------------------------ */
 
 /* -------------------------問い合わせページ----------------------------------- */
+ 
 .contact h2 {
   text-align: center;
   color: #20B2AA;
@@ -678,4 +679,146 @@ table.content td {
 
 .contact p span {
   color: red;
+}
+
+.must {
+  color: red;
+  margin-left: 10px;
+}
+
+.form {
+  margin-bottom: 80px;
+}
+
+.form dl {
+  display: flex;
+  padding: 20px 0;
+  border-bottom: 1px dotted #20B2AA;
+}
+
+.form dl:first-of-type {
+  border-top: 1px dotted #20B2AA;
+}
+
+.form dt {
+  width: 300px;
+  box-sizing: border-box;
+  padding: 20px 0 20px 10px;
+  line-height: 1em;
+}
+
+.form dd {
+  width: calc(100% - 300px);
+  box-sizing: border-box;
+}
+
+.form dd input,
+.form dd select,
+.form dd textarea {
+  font-size: 1em;
+  border: 1px solid #20B2AA;
+  box-sizing: border-box;
+}
+
+.form dd input,
+.form dd select {
+  line-height: 60px;
+  height: 60px;
+  padding: 0 20px;
+}
+
+.form dd textarea {
+  height: 140px;
+  line-height: 2em;
+  padding: 20px;
+}
+
+.form dl.name dd {
+  padding: 0 0 0 25px;
+}
+
+.form dl.name dd span {
+  margin: 0 20px 0 0;
+}
+
+.form dl.name dd input {
+  width: 350px;
+}
+
+.form dl.name dd input:first-of-type {
+  margin: 0 50px 0 0;
+}
+
+.form dl.furigana dd {
+  padding: 0 0 0 10px;
+}
+
+.form dl.furigana dd span {
+  margin: 0 20px 0 0;
+}
+
+.form dl.furigana dd input {
+  width: 350px;
+}
+
+.form dl.furigana dd input:first-of-type {
+  margin: 0 30px 0 0;
+}
+
+label {
+  margin-right: 5em;
+}
+
+.form dl.mail dd input {
+  width: calc(100% - 30px);
+}
+
+.form dl.tel dd input {
+  width: 200px;
+}
+
+.form dl.tel dd span {
+  margin: 0 20px;
+}
+
+.form dl.zip dd input {
+  width: 200px;
+}
+
+.form dl.zip dd span {
+  margin: 0 20px;
+}
+
+.form dl.address dd input {
+  width: calc(100% - 30px);
+}
+
+.form dl.multi-text dd textarea {
+  width: calc(100% - 30px);
+}
+
+.form .form-button {
+  display: flex;
+  justify-content: center;
+  margin: 50px auto 0 auto;
+}
+
+.form .form-button input {
+  display: block;
+  width: 250px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 1.5em;
+  color: #fff;
+  background: -webkit-linear-gradient(top, #00CED1, #20B2AA, #fff);
+  border: 1px solid #20B2AA;
+  margin: 0 15px;
+  cursor: pointer;
+  transition: .3s ease all;
+}
+
+.form .form-button input:hover {
+  background-color: transparent;
+  color: 	#444;
+  transition: .3s ease all;
 }
